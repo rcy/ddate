@@ -1,4 +1,4 @@
-package ddate
+package discodate
 
 import (
 	"math/rand"
@@ -101,7 +101,7 @@ func TestCompareDDateCmd(t *testing.T) {
 			got := FromTime(when).Format(false)
 			gotLegacy, err := ddateCmd(when)
 			if err != nil {
-				t.Errorf("ddateCmd: %s", err)
+				t.Fatalf("ddateCmd: %s", err)
 			}
 
 			if got != gotLegacy {

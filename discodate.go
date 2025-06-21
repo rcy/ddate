@@ -1,4 +1,4 @@
-package ddate
+package discodate
 
 import (
 	"fmt"
