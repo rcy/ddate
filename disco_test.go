@@ -1,4 +1,4 @@
-package discodate
+package disco
 
 import (
 	"math/rand"
